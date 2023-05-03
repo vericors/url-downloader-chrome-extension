@@ -1,0 +1,18 @@
+{
+  "name": "Save URL",
+  "description": "Saves URL to webloc file and save to default downloads folder on the computer",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "downloads",
+    "tabs"
+  ],
+  "background":
+  {
+    "service_worker": "background.js"
+  },
+  "action":
+  {
+    "default_icon": "icon.png"
+  }
+}
